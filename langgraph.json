@@ -1,13 +1,6 @@
 {
   "$schema": "http://langgra.ph/schema.json",
   "dependencies": ["."],
-  "checkpointer": {
-    "backend": "mongo",
-    "ttl": {
-      "default_ttl": 3600,
-      "strategy": "keep_latest"
-    }
-  },
   "graphs": {
     "agent": "./src/react_agent/graph.py:graph"
   },
